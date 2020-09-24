@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent
 }
 
 body,html{
@@ -17,6 +18,7 @@ body{
 }
 a{
  text-decoration: none;
+ outline: 0
 }
 
 .mainbg{
@@ -247,6 +249,10 @@ footer a {
     font-size: 1.2rem
 }
 
+/* Animation */
+
+
+
 
 /* Media Querry */
 
@@ -362,3 +368,39 @@ footer a {
  }
 
 }
+
+@media (max-width:419px){
+    .logo img{
+        width: 235px;
+        margin-top: 110px;
+    }
+    .header{
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    .btn{
+        box-shadow: 5px 8px 11px #333333fc;
+        font-size: 20px;
+    }
+    .about{
+        width: auto;
+    }
+  }
+
+  @media (max-width:371px){
+    .logo img{
+        width: 180px;
+        margin-top: 90px;
+    }
+    .header{
+        margin-top: 0;
+    }
+    .header p{
+        margin-top: 15px;
+    }
+
+    .btn{
+        width:215px;
+        font-size: 18px;
+    }
+  }

@@ -1,0 +1,2 @@
+User-agent: * Disallow:
+Sitemap: https://voicy.glitch.me/sitemap.xml
